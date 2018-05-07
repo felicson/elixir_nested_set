@@ -13,7 +13,7 @@ defmodule NestedSet.Mixfile do
        links: %{"Github" => "https://github.com/bansalakhil/elixir_nested_set", "Blog" => "http://webonrails.com" },
        maintainers: ["Akhil Bansal"]
        ],
-     deps: deps]
+     deps: deps()]
   end
 
   # Configuration for the OTP application
