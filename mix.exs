@@ -34,7 +34,7 @@ defmodule NestedSet.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:ecto, "~> 1.1.3"},
+      {:ecto, "~> 2.1"},
       {:earmark, "~> 0.1", only: :dev},
       {:ex_doc, github: "elixir-lang/ex_doc", only: :dev}
     ]
